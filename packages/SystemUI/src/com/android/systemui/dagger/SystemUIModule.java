@@ -47,6 +47,7 @@ import com.android.systemui.controls.dagger.ControlsModule;
 import com.android.systemui.dagger.qualifiers.Main;
 import com.android.systemui.dagger.qualifiers.SystemUser;
 import com.android.systemui.demomode.dagger.DemoModeModule;
+import com.android.systemui.nava.NavaModule;
 import com.android.systemui.display.DisplayModule;
 import com.android.systemui.doze.dagger.DozeComponent;
 import com.android.systemui.dreams.dagger.DreamModule;
@@ -185,6 +186,7 @@ import javax.inject.Named;
             MediaProjectionModule.class,
             MediaProjectionTaskSwitcherModule.class,
             MotionToolModule.class,
+            NavaModule.class,
             NotificationIconAreaControllerModule.class,
             PeopleHubModule.class,
             PeopleModule.class,
