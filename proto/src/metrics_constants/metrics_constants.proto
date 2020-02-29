@@ -7442,5 +7442,7 @@ message MetricsEvent {
     // NavaDroid Metrics
     NAVA = 420;
 
+    // Panel for Mobile Data
+    PANEL_MOBILE_DATA = 4001;
   }
 }
