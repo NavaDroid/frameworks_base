@@ -245,4 +245,5 @@ interface IStatusBarService
      * Nava extensions
      */
     void toggleCameraFlash();
+    void killForegroundApp();
 }

@@ -372,4 +372,5 @@ oneway interface IStatusBar
      * Nava extensions
      */
     void toggleCameraFlash();
+    void killForegroundApp();
 }
